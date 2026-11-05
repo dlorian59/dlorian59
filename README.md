@@ -33,6 +33,7 @@ Composes asynchronous processing steps with bounded concurrency, timeouts and ca
 **[file-streams](https://github.com/dlorian59/file-streams)** · Java / TypeScript · <sub><a href="https://github.com/dlorian59/file-streams/blob/main/LICENSE">MIT</a></sub><br>
 Continuous file streaming between the browser, Java and S3 without buffering the entire file in memory. Backpressure respects the receiver's capacity, and cancellation releases the resources held by a transfer.
 <br><sub>[Spring Boot starter](https://github.com/dlorian59/file-streams-spring-boot-starter) · [React components](https://github.com/dlorian59/file-streams-react)</sub>
+<br><sub>[Video Streams](https://github.com/dlorian59/video-streams) adds FFmpeg preparation and HLS playback with preview buffering · [Video starter](https://github.com/dlorian59/video-streams-spring-boot-starter) · [Video React](https://github.com/dlorian59/video-streams-react)</sub>
 
 **[browser-media-cache](https://github.com/dlorian59/browser-media-cache)** · TypeScript · <sub><a href="https://github.com/dlorian59/browser-media-cache/blob/main/LICENSE">MIT</a></sub><br>
 Shares media loads across components with explicit acquire/release ownership. Idle TTL and budgets manage cached Blob URLs; optional CacheStorage and React adapters connect the same lifecycle to persistence and UI.
@@ -88,6 +89,7 @@ Compares model snapshots by stable keys and selected fields. Produces ordered ad
 **[file-streams](https://github.com/dlorian59/file-streams)** · Java / TypeScript · <sub><a href="https://github.com/dlorian59/file-streams/blob/main/LICENSE">MIT</a></sub><br>
 Передача файлов сквозным потоком между браузером, Java и S3 без накопления целого файла в памяти. Управление скоростью потока учитывает возможности получателя, а отмена передачи освобождает занятые ресурсы.
 <br><sub>[Spring Boot стартер](https://github.com/dlorian59/file-streams-spring-boot-starter) · [React-компоненты](https://github.com/dlorian59/file-streams-react)</sub>
+<br><sub>[Video Streams](https://github.com/dlorian59/video-streams) добавляет подготовку FFmpeg и воспроизведение HLS с предзагрузкой начала · [Видео-стартер](https://github.com/dlorian59/video-streams-spring-boot-starter) · [Видео React](https://github.com/dlorian59/video-streams-react)</sub>
 
 **[browser-media-cache](https://github.com/dlorian59/browser-media-cache)** · TypeScript · <sub><a href="https://github.com/dlorian59/browser-media-cache/blob/main/LICENSE">MIT</a></sub><br>
 Общая загрузка медиа для нескольких компонентов с явным владением через acquire/release. TTL и бюджеты управляют неиспользуемыми Blob URL; отдельные адаптеры CacheStorage и React связывают этот жизненный цикл с хранилищем и интерфейсом.
