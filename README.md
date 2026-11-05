@@ -26,31 +26,31 @@ I build libraries for data processing and reliable distributed applications: mod
 
 <sub>Libraries are licensed under MIT.</sub>
 
-**[reactive-pipeline-kit](https://github.com/59Alex/reactive-pipeline-kit)** · Java 17+ / Project Reactor · <sub><a href="https://github.com/59Alex/reactive-pipeline-kit/blob/main/LICENSE">MIT</a></sub><br>
+**[reactive-pipeline-kit](https://github.com/dlorian59/reactive-pipeline-kit)** · Java 17+ / Project Reactor · <sub><a href="https://github.com/dlorian59/reactive-pipeline-kit/blob/main/LICENSE">MIT</a></sub><br>
 Composes asynchronous processing steps with bounded concurrency, timeouts and cancellation. Retries apply to the failing step; an optional Jolt adapter transforms JSON records.
-<br><sub>[Spring Boot starter](https://github.com/59Alex/reactive-pipeline-spring-boot-starter)</sub>
+<br><sub>[Spring Boot starter](https://github.com/dlorian59/reactive-pipeline-spring-boot-starter)</sub>
 
-**[file-streams](https://github.com/59Alex/file-streams)** · Java / TypeScript · <sub><a href="https://github.com/59Alex/file-streams/blob/main/LICENSE">MIT</a></sub><br>
+**[file-streams](https://github.com/dlorian59/file-streams)** · Java / TypeScript · <sub><a href="https://github.com/dlorian59/file-streams/blob/main/LICENSE">MIT</a></sub><br>
 Continuous file streaming between the browser, Java and S3 without buffering the entire file in memory. Backpressure respects the receiver's capacity, and cancellation releases the resources held by a transfer.
-<br><sub>[Spring Boot starter](https://github.com/59Alex/file-streams-spring-boot-starter) · [React components](https://github.com/59Alex/file-streams-react)</sub>
+<br><sub>[Spring Boot starter](https://github.com/dlorian59/file-streams-spring-boot-starter) · [React components](https://github.com/dlorian59/file-streams-react)</sub>
 
-**[browser-media-cache](https://github.com/59Alex/browser-media-cache)** · TypeScript · <sub><a href="https://github.com/59Alex/browser-media-cache/blob/main/LICENSE">MIT</a></sub><br>
+**[browser-media-cache](https://github.com/dlorian59/browser-media-cache)** · TypeScript · <sub><a href="https://github.com/dlorian59/browser-media-cache/blob/main/LICENSE">MIT</a></sub><br>
 Shares media loads across components with explicit acquire/release ownership. Idle TTL and budgets manage cached Blob URLs; optional CacheStorage and React adapters connect the same lifecycle to persistence and UI.
-<br><sub>[React components](https://github.com/59Alex/browser-media-cache-react)</sub>
+<br><sub>[React components](https://github.com/dlorian59/browser-media-cache-react)</sub>
 
-**[browser-sse-relay](https://github.com/59Alex/browser-sse-relay)** · TypeScript · <sub><a href="https://github.com/59Alex/browser-sse-relay/blob/main/LICENSE">MIT</a></sub><br>
+**[browser-sse-relay](https://github.com/dlorian59/browser-sse-relay)** · TypeScript · <sub><a href="https://github.com/dlorian59/browser-sse-relay/blob/main/LICENSE">MIT</a></sub><br>
 SSE reconnection from the last processed event, followed by a transition to the live stream. If the server no longer retains the missed history, the application is signalled to resync its state.
-<br><sub>[React components](https://github.com/59Alex/browser-sse-relay-react)</sub>
+<br><sub>[React components](https://github.com/dlorian59/browser-sse-relay-react)</sub>
 
-**[pg-task-lease](https://github.com/59Alex/pg-task-lease)** · Java 17+ / PostgreSQL / R2DBC · <sub><a href="https://github.com/59Alex/pg-task-lease/blob/main/LICENSE">MIT</a></sub><br>
+**[pg-task-lease](https://github.com/dlorian59/pg-task-lease)** · Java 17+ / PostgreSQL / R2DBC · <sub><a href="https://github.com/dlorian59/pg-task-lease/blob/main/LICENSE">MIT</a></sub><br>
 Coordinates background tasks across workers through expiring leases. Atomic claims, heartbeats and retries support recovery; a stale worker cannot complete a task after losing its lease.
-<br><sub>[Spring Boot starter](https://github.com/59Alex/pg-task-lease-spring-boot-starter)</sub>
+<br><sub>[Spring Boot starter](https://github.com/dlorian59/pg-task-lease-spring-boot-starter)</sub>
 
-**[relational-paths](https://github.com/59Alex/relational-paths)** · Java 17+ · <sub><a href="https://github.com/59Alex/relational-paths/blob/main/LICENSE">MIT</a></sub><br>
+**[relational-paths](https://github.com/dlorian59/relational-paths)** · Java 17+ · <sub><a href="https://github.com/dlorian59/relational-paths/blob/main/LICENSE">MIT</a></sub><br>
 Builds explainable JOIN plans from relational metadata. Ambiguous relationships require an explicit choice, so dynamic queries follow the intended data model.
-<br><sub>[Spring Boot starter](https://github.com/59Alex/relational-paths-spring-boot-starter)</sub>
+<br><sub>[Spring Boot starter](https://github.com/dlorian59/relational-paths-spring-boot-starter)</sub>
 
-**[model-change-set](https://github.com/59Alex/model-change-set)** · Java 17+ · <sub><a href="https://github.com/59Alex/model-change-set/blob/main/LICENSE">MIT</a></sub><br>
+**[model-change-set](https://github.com/dlorian59/model-change-set)** · Java 17+ · <sub><a href="https://github.com/dlorian59/model-change-set/blob/main/LICENSE">MIT</a></sub><br>
 Compares model snapshots by stable keys and selected fields. Produces ordered additions, removals and field changes for schema reviews, synchronization and change reports.</details>
 
 <details name="profile-language" open>
@@ -81,29 +81,29 @@ Compares model snapshots by stable keys and selected fields. Produces ordered ad
 
 <sub>Библиотеки защищены лицензией MIT.</sub>
 
-**[reactive-pipeline-kit](https://github.com/59Alex/reactive-pipeline-kit)** · Java 17+ / Project Reactor · <sub><a href="https://github.com/59Alex/reactive-pipeline-kit/blob/main/LICENSE">MIT</a></sub><br>
+**[reactive-pipeline-kit](https://github.com/dlorian59/reactive-pipeline-kit)** · Java 17+ / Project Reactor · <sub><a href="https://github.com/dlorian59/reactive-pipeline-kit/blob/main/LICENSE">MIT</a></sub><br>
 Объединяет асинхронные шаги обработки с ограниченной конкурентностью, тайм-аутами и отменой. Повторяется только сбойный шаг; отдельный адаптер Jolt преобразует JSON-записи.
-<br><sub>[Spring Boot стартер](https://github.com/59Alex/reactive-pipeline-spring-boot-starter)</sub>
+<br><sub>[Spring Boot стартер](https://github.com/dlorian59/reactive-pipeline-spring-boot-starter)</sub>
 
-**[file-streams](https://github.com/59Alex/file-streams)** · Java / TypeScript · <sub><a href="https://github.com/59Alex/file-streams/blob/main/LICENSE">MIT</a></sub><br>
+**[file-streams](https://github.com/dlorian59/file-streams)** · Java / TypeScript · <sub><a href="https://github.com/dlorian59/file-streams/blob/main/LICENSE">MIT</a></sub><br>
 Передача файлов сквозным потоком между браузером, Java и S3 без накопления целого файла в памяти. Управление скоростью потока учитывает возможности получателя, а отмена передачи освобождает занятые ресурсы.
-<br><sub>[Spring Boot стартер](https://github.com/59Alex/file-streams-spring-boot-starter) · [React-компоненты](https://github.com/59Alex/file-streams-react)</sub>
+<br><sub>[Spring Boot стартер](https://github.com/dlorian59/file-streams-spring-boot-starter) · [React-компоненты](https://github.com/dlorian59/file-streams-react)</sub>
 
-**[browser-media-cache](https://github.com/59Alex/browser-media-cache)** · TypeScript · <sub><a href="https://github.com/59Alex/browser-media-cache/blob/main/LICENSE">MIT</a></sub><br>
+**[browser-media-cache](https://github.com/dlorian59/browser-media-cache)** · TypeScript · <sub><a href="https://github.com/dlorian59/browser-media-cache/blob/main/LICENSE">MIT</a></sub><br>
 Общая загрузка медиа для нескольких компонентов с явным владением через acquire/release. TTL и бюджеты управляют неиспользуемыми Blob URL; отдельные адаптеры CacheStorage и React связывают этот жизненный цикл с хранилищем и интерфейсом.
-<br><sub>[React-компоненты](https://github.com/59Alex/browser-media-cache-react)</sub>
+<br><sub>[React-компоненты](https://github.com/dlorian59/browser-media-cache-react)</sub>
 
-**[browser-sse-relay](https://github.com/59Alex/browser-sse-relay)** · TypeScript · <sub><a href="https://github.com/59Alex/browser-sse-relay/blob/main/LICENSE">MIT</a></sub><br>
+**[browser-sse-relay](https://github.com/dlorian59/browser-sse-relay)** · TypeScript · <sub><a href="https://github.com/dlorian59/browser-sse-relay/blob/main/LICENSE">MIT</a></sub><br>
 Восстановление SSE-соединения с последнего обработанного события и переход к текущему потоку. Если сервер уже удалил пропущенную историю, приложение получает сигнал заново синхронизировать состояние.
-<br><sub>[React-компоненты](https://github.com/59Alex/browser-sse-relay-react)</sub>
+<br><sub>[React-компоненты](https://github.com/dlorian59/browser-sse-relay-react)</sub>
 
-**[pg-task-lease](https://github.com/59Alex/pg-task-lease)** · Java 17+ / PostgreSQL / R2DBC · <sub><a href="https://github.com/59Alex/pg-task-lease/blob/main/LICENSE">MIT</a></sub><br>
+**[pg-task-lease](https://github.com/dlorian59/pg-task-lease)** · Java 17+ / PostgreSQL / R2DBC · <sub><a href="https://github.com/dlorian59/pg-task-lease/blob/main/LICENSE">MIT</a></sub><br>
 Распределяет фоновые задачи между воркерами с помощью аренды на ограниченное время. Атомарный захват, продление аренды и повторы помогают восстановить обработку после сбоя; старый воркер не сможет завершить задачу после потери аренды.
-<br><sub>[Spring Boot стартер](https://github.com/59Alex/pg-task-lease-spring-boot-starter)</sub>
+<br><sub>[Spring Boot стартер](https://github.com/dlorian59/pg-task-lease-spring-boot-starter)</sub>
 
-**[relational-paths](https://github.com/59Alex/relational-paths)** · Java 17+ · <sub><a href="https://github.com/59Alex/relational-paths/blob/main/LICENSE">MIT</a></sub><br>
+**[relational-paths](https://github.com/dlorian59/relational-paths)** · Java 17+ · <sub><a href="https://github.com/dlorian59/relational-paths/blob/main/LICENSE">MIT</a></sub><br>
 Строит объяснимый план JOIN по метаданным связей между таблицами. При неоднозначности требует явно выбрать связь, чтобы динамический запрос соответствовал смыслу модели данных.
-<br><sub>[Spring Boot стартер](https://github.com/59Alex/relational-paths-spring-boot-starter)</sub>
+<br><sub>[Spring Boot стартер](https://github.com/dlorian59/relational-paths-spring-boot-starter)</sub>
 
-**[model-change-set](https://github.com/59Alex/model-change-set)** · Java 17+ · <sub><a href="https://github.com/59Alex/model-change-set/blob/main/LICENSE">MIT</a></sub><br>
+**[model-change-set](https://github.com/dlorian59/model-change-set)** · Java 17+ · <sub><a href="https://github.com/dlorian59/model-change-set/blob/main/LICENSE">MIT</a></sub><br>
 Сравнивает снимки моделей по стабильным ключам и выбранным полям. Возвращает упорядоченные добавления, удаления и изменения полей для проверки схем, синхронизации и отчётов об изменениях.</details>
